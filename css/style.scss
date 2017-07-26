@@ -1,0 +1,106 @@
+@import "reset";
+@import "myfn";
+
+
+#tsmain {
+    @include wandh(520, 494);
+    overflow: hidden;
+}
+
+#tsmain ul {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+}
+
+#tsmain li {
+    @include wandh(65, 494);
+    overflow: hidden;
+    position: absolute;
+    top:0;
+}
+
+.tsnav0,
+.tsnav1,
+.tsnav2,
+.tsnav3,
+.tsnav4,
+.tsnav5,
+.tsnav6 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    @include wandh(65, 494);
+    z-index: 2;
+}
+
+.tsnav0 {
+    
+    @include whbg(65, 494,'person1.jpg');
+}
+
+.tsnav1 {
+    @include whbg(65, 494,'person2.jpg'); 
+}
+
+.tsnav2 {
+    @include whbg(65, 494,'person3.jpg'); 
+}
+
+.tsnav3 {
+    @include whbg(65, 494,'person4.jpg');
+}
+
+.tsnav4 {
+    @include whbg(65, 494,'person5.jpg'); 
+}
+
+.tsnav5 {
+    @include whbg(65, 494,'person6.jpg'); 
+}
+
+.tsnav6 {
+    @include whbg(65, 494,'person7.jpg'); 
+}
+
+.tscon1,
+.tscon2,
+.tscon3,
+.tscon4,
+.tscon5,
+.tscon6,
+.tscon7 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    @include wandh(130, 494);
+}
+
+.tscon1 {
+    @include whbg(130, 494,'person1A.jpg'); 
+}
+
+.tscon2 {
+    @include whbg(130, 494,'person2A.jpg');
+}
+
+.tscon3 {
+    @include whbg(130, 494,'person3A.jpg');
+}
+
+.tscon4 {
+    @include whbg(130, 494,'person4A.jpg'); 
+}
+
+.tscon5 {
+    @include whbg(130, 494,'person5A.jpg');
+}
+
+.tscon6 {
+    @include whbg(130, 494,'person6A.jpg');
+}
+
+.tscon7 {
+    @include whbg(130, 494,'person7A.jpg');
+}
